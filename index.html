@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module_20_Portfolio_Emily</title>
+
+    <!--Bootstrap and CSS Linked-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css/style.css"></link>
+    <link rel="stylesheet" href="../Module_20_Emily/css/style.css">
+
+    <!--Fonts and Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,11 +22,11 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand/logo -->
             <a class="logo" href="#">
-                <img src="../Images/Emily Logo1.jpg"></img>
+                <img src="Images/Emily Logo1.jpg" class="logo1"></img>
             </a>
             
             <!-- Links -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
@@ -32,76 +41,263 @@
               </li>
             </ul>
           </nav>
+
+            <!--Hero Image Section-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="jumbotronTitles">
+          <h1>U.S. Department of Labor</h1>      
+          <h2>A responsive web redesign project</h2>
+        </div>
+        <div class="row">
+          <div class="description col-lg-10 col-md-10 col-sm-12">
+            <p>Various types of people use the U.S. Department of Labor’s website for many different reasons and it contains A LOT of useful information. This project focused on reimagining the Department of Labor’s website in a modern and functional way.</p>
+          </div>
+        <div class="row">
+          <div class="description col-lg-6 col-md-6 col-sm-6">
+            <p> My Role & Responsibilities:
+              UX Researcher
+              UX Designer
+              UI Designer</p>
+          </div>
+          <div class="description col-lg-6 col-md-6 col-sm-6">
+            <p>Timeline:
+              6 weeks between May 18th, 2023 to June 28th, 2023
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="description col-lg-6 col-md-6 col-sm-6">
+            <p>The Problem:
+              With so much information displayed at once, it was difficult for users to search for specific topics they were looking for.
+            </p>
+          </div>
+          <div class="description col-lg-6 col-mg-6 col-sm-6">
+            <p>The Solution:
+              A redesign of the original website will make it easier for users to navigate through reducing the amount of information displayed at a time.
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
     </header>
 
-    <!--Hero Image Section-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1>Bootstrap Tutorial</h1>      
-          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-        </div>
-      </div>
-      
-      <div class="container">
-        <p>This is some text.</p>      
-        <p>This is another text.</p>      
-      </div>
+      <!--Case Study Nav-->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+        
+        <!-- Links -->
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+          <ul class="navbar-nav2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Iterations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prototypes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Final Design</a>
+            </li>
+          </ul>
+        </nav>
+</header>
 
-      <!--Section Description-->
+      <!--Research Section-->
    
       <div class="container">
+        <div class="rowDark">
+            <div class="sectionTitle col-lg-10 col-md-10 col-sm-10">What's the Problem?</div>
+            <div class="intro col-lg-10 col-md-10 col-sm-10">The question was, what should I focus on first in my redesign of the Department of Labor’s website? How could I solve the problem of user fatigue due to too much information? The answer was simple. Test the current website to discover user pain points. I started off with five usability tests on the original website (www.dol.org). I asked people who are currently employed (or have been previously employed) to complete two navigation tasks to see how they searched for information on the website.</div>
+        </div> 
+
         <div class="row">
-            <div class="sectionTitle col-lg-12 col-md-12 col-sm-12">What's the Problem?</div>
-            <div class="intro col-lg-12 col-md-12 col-sm-12">The question was, what should I focus on first in my redesign of the Department of Labor’s website? How could I solve the problem of user fatigue due to too much information? The answer was simple. Test the current website to discover user pain points. I started off with five usability tests on the original website (www.dol.org). I asked people who are currently employed (or have been previously employed) to complete two navigation tasks to see how they searched for information on the website.</div>
-        </div>
-        <div class="row">
-            <div class="title col-lg-12 col-md-12 col-sm-12">Researching the Problem</div>
-          <div class="details col-lg-6 col-md-6 col-sm-12">The two navigation tasks were: Task 1: Get to the OSHA homepage. Task 2: Find information on heat-related
-            illnesses and first aid. Issues found with the current website’s navigation: The navigation bar contained too many items in the dropdown menu. The search bar yielded too many irrelevant results.</div>
-          <div class="image col-lg-6 col-md-6 col-sm-12">
-            <img src="../Images/Chart.JPG"></img>
+            <div class="title col-lg-8 col-md-8 col-sm-8">Researching the Problem</div>
+           <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/Chart.JPG" class="chart"></img>
+          </div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">
+            <ul>The two navigation tasks were:
+              <li>Task 1: Get to the OSHA homepage</li>
+              <li>Task 2: Find information on heat-related illnesses and first aid</li>
+            </ul>
+            <ul> Issues found with the current website’s navigation:
+              <li>The navigation bar contained too many items in the dropdown menu</li>
+              <li>The search bar yielded too many irrelevant results</li>
+            </ul>
           </div>
         </div>
         <div class="row">
-          <div class="title col-lg-12 col-md-12 col-sm-12">Defining the Probelm</div>
-          <div class="details col-lg-6 col-md-6 col-sm-12">I started off by annotating the original website and making notes of the content and functional pieces I wanted to change in my redesign. Here are 3 major themes in my annotations: The navigation bar should be more consistent and easier to use. The hierarchy of content is unclear on which information is most important. UI elements, such as pictures or tables, are too busy.</div>
-          <div class="image col-lg-6 col-md-6 col-sm-12">
-            <img src="../Images/Annotations.JPG"></img>
+          <div class="title col-lg-8 col-md-8 col-sm-8">Defining the Problem</div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">I started off by annotating the original website and making notes of the content and functional pieces I wanted to change in my redesign. Here are 3 major themes in my annotations: The navigation bar should be more consistent and easier to use. The hierarchy of content is unclear on which information is most important. UI elements, such as pictures or tables, are too busy.</div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/Annotations.JPG" class="annotations"></img>
           </div>
         </div>
         <div class="row">
-          <div class="details col-lg-6 col-md-6 col-sm-12">Next, I did some card sorting to tackle reducing the information in the dropdown menus of the navigation bar. Basing it on the original navigation bar, I wrote down every significant topic on index cards and began the card sorting. I started off by defining each card, then followed it by grouping the cards based on definition. Finally, I structured my cards by making subgroups within the main categories.</div>
-          <div class="image col-lg-6 col-md-6 col-sm-12">
-            <img src="../Images/Card Sorting.JPG"></img>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/Card Sorting.JPG" class="cardSort"></img>
           </div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">Next, I did some card sorting to tackle reducing the information in the dropdown menus of the navigation bar. Basing it on the original navigation bar, I wrote down every significant topic on index cards and began the card sorting. I started off by defining each card, then followed it by grouping the cards based on definition. Finally, I structured my cards by making subgroups within the main categories.</div>
         </div>
         <div class="row">
-            <div class="details col-lg-6 col-md-6 col-sm-12">From the card sorting, I came up with a site map for my redesign. With a clear site map in place, I was ready to move onto prototyping my redesign.</div>
-            <div class="image col-lg-6 col-md-6 col-sm-12">
-                <img src="../Images/Site Map.JPG"></img>
+            <div class="detailsA col-lg-4 col-md-4 col-sm-8">From the card sorting, I came up with a site map for my redesign. With a clear site map in place, I was ready to move onto prototyping my redesign.</div>
+            <div class="image col-lg-4 col-md-4 col-sm-8">
+                <img src="Images/Site Map.JPG" class="siteMap"></img>
                 <div class="note">Note: This is one branch of the entire site map.</div>
-                <link href="https://www.figma.com/file/gSixEPfCBx5EIjWqVTr3jw/DOL-Project?type=design&node-id=23-490&mode=design&t=yFHC2WbQvSws1eYc-0">View Full Site Map Here</link>
+                <a href="https://www.figma.com/file/gSixEPfCBx5EIjWqVTr3jw/DOL-Project?type=design&node-id=23-490&mode=design&t=yFHC2WbQvSws1eYc-0">View Full Site Map Here</a>
             </div>
         </div>
       </div>
       
-
-      <!--Case Study In-Depth Info-->
+      <!--Iterations Section-->
       <div class="container">
-        <h1>Grid Example</h1>
-        <p>This example demonstrates a 50%/50% split on small, medium, large and xlarge devices. On extra small devices, it will stack (100% width).</p>      
-        <p>Resize the browser window to see the effect.</p> 
-        <div class="container">     
-          <div class="row">
-            <div class="col-sm-6 bg-success">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <div class="rowDark">
+            <div class="sectionTitle col-lg-10 col-md-10 col-sm-10">Designing for a Solution</div>
+            <div class="intro col-lg-10 col-md-10 col-sm-10">The next phase of this redesign project involved a mixture of prototyping and testing. During this process, I tested my designs among 15 user testers and gained lots of valuable feedback for each iteration I made. I created desktop and mobile prototypes to showcase the responsive web design. I made 4 versions of each prototype and improved upon navigation bar in every iteration.</div>
+        </div>
+        <div class="row">
+            <div class="title col-lg-8 col-md-8 col-sm-8">Version 1 of the Redesign</div>
+            <div class="image col-lg-4 col-md-4 col-sm-8">
+              <img src="Images/v1Web.JPG" class="webv1"></img>
             </div>
-            <div class="col-sm-6 bg-warning">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
+          <div class="details col-lg-4 col-md-4 col-sm-8">I conducted 4 five second usability tests on both web and mobile versions. From the usability test, I discovered that there was still too much information in the dropdown menus even in my redesign.</div>
+        </div>
+        <div class="row">
+          <div class="detailsB col-lg-4 col-md-4 col-sm-8">I also learned that there were inconsistencies between the web and mobile versions of my navigation menus.</div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/changes1.JPG" class="changes1"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/changes2.JPG" class="changes2"></img>
+            <a href="https://www.figma.com/proto/C342kwEgOdw9KpIni6WQxb/Emily-DOL-Project?type=design&node-id=14-72&t=eIPDfGsUA1MKjFX0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=14%3A72&show-proto-sidebar=1">Open Version 1 Prototypes</a>
+        </div>
+            <div class="detailsC col-lg-4 col-md-4 col-sm-8">Finally, it became apparent that the menus going out of frame made the content difficult to read.</div>
+        </div>
+        <div class="row">
+          <div class="details col-lg-4 col-md-4 col-sm-8">
+            <ul>Changes I made based on that feedback: 
+              <li>Removed the “Agencies” tab and made it its own search tool (titled “Find an Agency”) and moved it under “Quick Actions” tab</li>
+              <li>Added in the missing subsections I left out in the first version of the mobile prototype</li>
+              <li>Realigned the dropdown menu of the mobile prototype</li>
+            </ul>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/changes3.JPG" class="changes3"></img>
+            <a href="https://www.figma.com/proto/C342kwEgOdw9KpIni6WQxb/Emily-DOL-Project?type=design&node-id=140-61&t=larzD9K0q0vnAeam-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=140%3A61&show-proto-sidebar=1&mode=design">Open Version 2 of the Prototypes</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/styleTile.JPG" class="styleTile"></img>
+          </div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">Next I created a UI Style Tile to determine the branding direction I wanted to go with in my redesign. The style choices I made surrounded the idea that the Department of Labor is a dependable organization that serves industrious people. I wanted the colors and styling of the redesign to show that the Department of Labor is helpful, knowledgeable, authoritative, and modern.</div>
+        </div>
+      </div>
+
+      <!--Protoypes Section-->
+      <div class="container">
+        <div class="rowDark">
+            <div class="sectionTitle col-lg-10 col-md-10 col-sm-10">Mock Up (And More Testing!)</div>
+            <div class="intro col-lg-10 col-md-10 col-sm-10">I created a high-fidelity mock up using the UI style tile I had made and the second iteration of my prototypes. I conducted 7 usability tests on my desktop and mobile prototypes. There were 6 navigation tasks in total, 3 for the desktop prototype and 3 for the mobile prototype.</div>
+        </div>
+        <div class="rowPic">
+          <div class="details col-lg-8 col-md-8 col-sm-8">
+            <img src="Images/Mockup.JPG" class="webMockup"></img>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/mockup2.JPG" class="mobileMockup"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="title col-lg-8 col-md-8 col-sm-8">Version 3 of the Redesign</div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">
+            <ul>The 3 tasks for the desktop prototype were:
+              <li>Task 1: Find information on health plans and benefits (100% success rate)</li>
+              <li> Task 2: Find information on mental health in the workplace (43% success rate)</li>
+              <li>Task 3: Find the DOL’s form finder tool (100% success rate)</li>
+            </ul>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/piechart1.JPG" class="pieChart1"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/piechart2.JPG" class="pieChart2"></img>
+        </div>
+            <div class="details col-lg-4 col-md-4 col-sm-8">
+              <ul>The 3 tasks for the mobile prototype were: 
+                <li>Task 1: Find a contact us page for the DOL (57% success rate)</li>
+                <li>Task 2: Find information on unemployment insurance (71% success rate)</li>
+                <li>Task 3: Find the DOL’s blog (85% success rate)</li>
+              </ul>
             </div>
+        </div>
+        <div class="row">
+          <div class="details col-lg-4 col-md-4 col-sm-8">
+            <ul>The changes I made on the navigation based on the desktop usability testing:
+              <li>Compiled the “Topics” and “Resources” tabs into one singular tab titled “Resources”</li>
+              <li>Changed “Quick Actions” to “Search Tools”</li>
+            </ul>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/Final Web Nav.JPG" class="finalWebnav"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="image col-lg-4 col-md-4 col-sm-8">
+            <img src="Images/Final Mobile Nav.JPG" class="finalMobilenav"></img>
+          </div>
+          <div class="details col-lg-4 col-md-4 col-sm-8">
+            <ul>The changes I made on the navigation based on the mobile usability testing:
+              <li>Renaming the subsection “Questions” to “Contact Us”</li>
+              <li>Combining “Topics” and “Resources” tab so mobile matches the desktop version</li>
+            </ul>
           </div>
         </div>
       </div>
+
+      <!--Final Design Section-->
+      <div class="container">
+        <div class="rowDark">
+            <div class="sectionTitle col-lg-10 col-md-10 col-sm-10">Final Design</div>
+            <div class="intro col-lg-10 col-md-10 col-sm-10">I learned a lot about responsive web design and the thought process that goes behind a redesign project. It also gave me the opportunity to analyze information hierarchy and work with components. As for next steps, I would love to take this redesign farther and design some of the features I brainstormed along the way (such as the Agency Finder Tool). Improving upon the current search features would greatly improve the user experience on the U.S. Department of Labor’s website.</div>
+        </div>
+        <div class="rowPic">
+          <div class="image col-lg-12 col-md-12 col-sm-12">
+            <img src="Images/finalWeb.JPG" class="finalWeb"></img>
+          </div>
+        </div>
+        <div class="rowPic">
+          <div class="image col-lg-4 col-md-4 col-sm-12">
+            <img src="Images/finalMobile1.JPG" class="finalMobile"></img>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-12">
+            <img src="Images/finalMobile2.JPG" class="finalMobile"></img>
+          </div>
+          <div class="image col-lg-4 col-md-4 col-sm-12">
+            <img src="Images/finalMobile3.JPG" class="finalMobile"></img>
+          </div>
+          <div class="note">
+            <link href="https://www.figma.com/proto/C342kwEgOdw9KpIni6WQxb/Emily-DOL-Project?type=design&node-id=248-3832&t=sIyLrmhQERmMqdCd-1&scaling=scale-down&page-id=161%3A108&starting-point-node-id=248%3A3832&show-proto-sidebar=1&mode=design">Open Final Prototypes Here</link>
+          </div>
+      </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="CTA">
+            <h3>Check out my social media!</h3>
+            <div class="icons">
+                <i class="material-icons">mail</i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
